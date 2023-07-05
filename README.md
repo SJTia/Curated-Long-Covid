@@ -21,8 +21,6 @@ contains the curated dataset in the R platform.
 2.) Load the Dataset in R: To use the shared dataframe, follow these
 steps to load it into your R environment:
 
-# Replace "path/to/curatedLC.rds" with the actual file path
-
 myDataframe \<- readRDS("path/to/curatedLC.rds")
 
 Make sure to replace "path/to/curatedLC.rds" with the actual file path
@@ -33,7 +31,7 @@ can work with it in your R sessions just like any other dataframe.
 Perform data analysis, visualization, or any other operations you
 require using the myDataframe variable.
 
-# Example: Summarize the dataset
+Example: Summarize the dataset
 
 summary(myDataframe)
 
