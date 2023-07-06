@@ -15,23 +15,23 @@ further exploration of long COVID.
 
 Installation Instructions:
 
-1.) Download the Curated Dataset: Download the curatedLC.rds file, which
+1.) Download the Curated Dataset: Download the Curated_Long_CV.rds file, which
 contains the curated dataset in the R platform.
 
 2.) Load the Dataset in R: To use the shared dataframe, follow these
 steps to load it into your R environment:
 
-myDataframe \<- readRDS("path/to/curatedLC.rds")
+myDataframe \<- readRDS("path/to/Curated_Long_CV.rds")
 
-Make sure to replace "path/to/curatedLC.rds" with the actual file path
-and name of the curatedLC.rds file.
+Make sure to replace "path/to/Curated_Long_CV.rds" with the actual file path
+and name of the Curated_Long_CV.rds file.
 
 3.) Start Working with the Dataset: Once the dataframe is loaded, you
 can work with it in your R sessions just like any other dataframe.
 Perform data analysis, visualization, or any other operations you
 require using the myDataframe variable.
 
-Example: Summarize the dataset
+Example: Syntax to summarize the dataset
 
 summary(myDataframe)
 
